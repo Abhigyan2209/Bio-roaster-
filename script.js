@@ -193,22 +193,17 @@ const shareBtn = document.getElementById("share");
 
 shareBtn.addEventListener("click",()=>{
 
-const tweet = `🔥 Roast
+const tweet = `Bio:
+"${bio.value}"
 
+✨ Vibe
+${vibe.innerText}
+
+🔥 Roast
 ${roast.innerText}
 
 😎 Hype
-
-${hype.innerText}
-
-✨ Vibe
-
-${vibe.innerText}
-
-Bio:
-"${bio.value}"
-
-Generated with AI Bio Vibes`;
+${hype.innerText}`;
 
 window.open(
 "https://twitter.com/intent/tweet?text="+encodeURIComponent(tweet),
