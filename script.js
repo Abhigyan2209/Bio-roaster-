@@ -145,12 +145,10 @@ function showResult(ai){
     result.classList.remove("hidden");
 
     bioResult.innerText = bio.value;
-
-    roast.innerText = ai.roast || "No roast generated.";
-
-    hype.innerText = ai.hype || "No hype generated.";
-
     vibe.innerText = ai.vibe || "Unknown Vibe";
+    roast.innerText = ai.roast || "No roast generated.";
+    hype.innerText = ai.hype || "No hype generated.";
+    
 
     window.scrollTo({
         top: document.body.scrollHeight,
@@ -195,13 +193,10 @@ shareBtn.addEventListener("click",()=>{
 
 const tweet = `Bio:
 "${bio.value}"
-
 ✨ Vibe
 ${vibe.innerText}
-
 🔥 Roast
 ${roast.innerText}
-
 😎 Hype
 ${hype.innerText}`;
 
