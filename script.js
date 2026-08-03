@@ -11,9 +11,6 @@ const clear = document.getElementById("clear");
 const loader = document.getElementById("loader");
 const result = document.getElementById("result");
 
-const homePage = document.getElementById("homePage");
-const resultPage = document.getElementById("resultPage");
-
 const bar1 = document.getElementById("bar1");
 const bar2 = document.getElementById("bar2");
 const bar3 = document.getElementById("bar3");
